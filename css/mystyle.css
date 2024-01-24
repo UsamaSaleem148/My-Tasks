@@ -1,0 +1,102 @@
+.top_bar{
+	background-color: #5fd2ee;
+	padding: 2px;
+}
+.social-icons{
+	margin-right: 5px;
+}
+.contact-info{
+	color: white;
+	font-size: 17px;
+}
+.logo-style img{
+	width: 400px;
+	height: 100px;
+}
+.my_menu{
+	margin-top: 27px;
+}
+.my_menu .navbar-default{
+	background: none;
+	border: none;
+}
+.my_menu .navbar .navbar-nav .active a{
+	background-color: #5fd2ee;
+	color: #fff;
+}
+.my_menu .navbar .navbar-nav li a:hover{
+	background-color: #5fd2ee;
+	color: #fff;
+}
+
+.log_in{
+	margin-top: 35px;
+}
+
+.languages{
+	border-radius: 20px;
+}
+.our_courses{
+	background: radial-gradient(circle, #5fcf80, #1b6932);
+	padding: 25px 0;
+}
+.our_courses h1{
+	color: #fff;
+}
+.our_courses img{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+.cont{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.form{
+
+background: radial-gradient(circle, #A1FADE, #A1FFCE);
+margin: 20px;
+padding: 20px;
+border-radius: 20px;
+
+}
+.footer{
+	background: #333333;
+	padding: 20px 0;
+}
+
+.footer p{
+	color: white;
+	margin: 20px;
+}
+.footer h3{
+	color: white;
+}
+.footer ul li a{
+	color: white;
+	list-style-type: none;
+	text-decoration : none;
+}
+.footer ul{
+	margin-top: 15%;
+}
+.footer ul li a:hover{
+	color: gold;
+	list-style-type: none;
+	text-decoration : none;
+}
+.footer .conta p{
+margin-top: 15%;
+}
+
+@media (max-width: 600px){
+	.our_courses [class*="col-"]{
+		margin-bottom: 35px;
+	}
+	}
+}
+@media (max-width: 1200px){
+	.my_menu .pull-right{
+		float: none !important;
+	}
+}
